@@ -5,7 +5,7 @@
    tasks: 
   
    - name:  Update cache, install apache2 and php packages
-     apt:
+     package:
        name:
          - apache2
          - libapache2-mod-php
